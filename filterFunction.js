@@ -1,5 +1,3 @@
-console.log("Try programiz.pro");
-
 function fetchDataAndFilter(data, keyword) {
   if (!Array.isArray(data) || typeof keyword !== "string") return [];
 
